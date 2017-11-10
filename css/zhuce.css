@@ -1,0 +1,232 @@
+input{
+	outline: none;
+}
+.Background{
+	width: 7.5rem;
+	height: 13.34rem;
+	/* background-color: red; */
+	background: url('c:/users/apple/desktop/代码/ios/img/zhuce-background.png');
+	background-size: 100% auto;
+	position: relative;
+	text-align: center;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.touxiang{
+	width: 1.64rem;
+	height: 1.79rem;
+	/* background-color: blue; */
+	/* margin: 0 auto; */
+	position: absolute;
+	top : 1.56rem;
+	left: 2.97rem;
+}
+.Background-title{
+	font-size: .36rem;
+	font-weight: bolder;
+	color: #fff;
+	position: absolute;
+	top: 3.7rem;
+	left: 2.94rem;
+}
+.Background-text{
+	font-size: .24rem;
+	font-weight: bolder;
+	color: #fff;
+	font-family : 'San Francisco Display';
+	position: absolute;
+	text-align: center;
+	top: 4.23rem;
+	left: 2.46rem;
+}
+.Background-main{
+	width: 6.50rem;
+	height: 4.79rem;
+	/* background-color: blue; */
+	position: absolute;
+	text-align: center;
+	top: 4.91rem;
+	left: .5rem;
+}
+.Background-main-top{
+	width: 6.50rem;
+	height: .20rem;
+	/* background-color: red; */
+	position: absolute;
+	text-align: center;
+	top: 0rem;
+	left: 0rem;
+}
+.Background-main-bottom{
+	width: 6.50rem;
+	height: 4.59rem;
+	background-color: #fff;
+	position: absolute;
+	top: .2rem;
+	left: 0rem;
+	padding-left: .5rem;
+	padding-right: .5rem;
+	border-bottom-right-radius: 0.1rem;
+    border-bottom-left-radius: 0.1rem;
+}
+.Background-main-bottom2{
+	width: 6.10rem;
+	height: .20rem;
+	background-color: #23cecb;
+	position: absolute;
+	bottom: -.2rem;
+	left: .2rem;
+	border-bottom-right-radius: 0.1rem;
+    border-bottom-left-radius: 0.1rem;
+}
+.Background-main-bottom-name{
+	width: 5.50rem;
+	height: .7rem;
+	/* background-color: blue; */
+	position: absolute;
+	top: .3rem;
+	border: .03rem solid #ffa414;
+	border-radius: .35rem;
+	padding-left: .24rem;
+	padding-right: .24rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.Background-main-bottom-name-icon{
+	width: .22rem;
+	height: .22rem;
+	/* background-color: blue; */
+}
+.name-tishi{
+	width: 4.49rem;
+	height: .50rem;
+	font-size: .24rem;
+	font-weight: bold;
+	color: #cacaca;
+	font-family: '苹方';
+	border: 0;
+}
+.Background-main-bottom-nicheng{
+	width: 5.50rem;
+	height: .7rem;
+	/* background-color: blue; */
+	position: absolute;
+	top: 1.25rem;
+	border: .03rem solid #ffa414;
+	border-radius: .35rem;
+	padding-left: .24rem;
+	padding-right: .24rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.Background-main-bottom-nicheng-icon{
+	width: .22rem;
+	height: .22rem;
+	/* background-color: blue; */
+}
+.nicheng-tishi{
+	width: 4.49rem;
+	height: .50rem;
+	font-size: .24rem;
+	font-weight: bold;
+	color: #cacaca;
+	font-family: '苹方';
+	border: 0;
+}
+.Background-main-bottom-password{
+	width: 5.50rem;
+	height: .7rem;
+	/* background-color: blue; */
+	position: absolute;
+	top: 2.2rem;
+	border: .03rem solid #ffa414;
+	border-radius: .35rem;
+	padding-left: .24rem;
+	padding-right: .24rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.Background-main-bottom-password-icon{
+	width: .22rem;
+	height: .22rem;
+	/* background-color: blue; */
+}
+.password-tishi{
+	width: 4.49rem;
+	height: .50rem;
+	font-size: .24rem;
+	font-weight: bold;
+	color: #cacaca;
+	font-family: '苹方';
+	border: 0;
+}
+.denglu{
+	font-size: .18rem;
+	font-weight: bold;
+	color: #b8b8b8;
+	font-family: '苹方';
+	line-height: 6.5rem;
+	float: left;
+}
+.Background-main-bottom-btn{
+	width: 5.50rem;
+	height: .7rem;
+	background-color: #b2b2b2;
+	position: absolute;
+	border-radius: .35rem;
+	font-size: .24rem;
+	font-weight: bold;
+	line-height: .5rem;
+	color: #fff;
+	font-family: '苹方';
+	bottom: .29rem;
+	left: .5rem;
+	padding-top: .06rem;
+	border: 0;
+}
+.QQ{
+	width: .8rem;
+	height: .8rem;
+	/* background-color: blue; */
+	position: absolute;
+	bottom: 1.8rem;
+	left: 1.84rem;
+}
+.weixin{
+	width: .8rem;
+	height: .8rem;
+	/* background-color: blue; */
+	position: absolute;
+	bottom: 1.8rem;
+	left: 3.36rem;
+}
+.xinlang{
+	width: .8rem;
+	height: .8rem;
+	/* background-color: blue; */
+	position: absolute;
+	bottom: 1.8rem;
+	right: 1.84rem;
+}
+.lianjie{
+	font-size: .2rem;
+	font-weight: bold;
+	color: #fff;
+	font-family: '苹方';
+	text-align: center;
+	line-height: 23.6rem;
+}
+.fengexian{
+	width: 4.13rem;
+	height: .05rem;
+	/* background-color: blue; */
+	position: absolute;
+	bottom: 1.52rem;
+	left: 1.68rem;
+}

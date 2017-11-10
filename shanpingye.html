@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>闪屏页</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/shanpingye.css">
+	<script src="js/rem.js"></script>
+	<script src="js/jquery-min.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script src="js/swiper.animate1.0.2.min.js"></script>
+</head>
+<body>
+	<div class="swiper-container" id="box">
+  		<div class="swiper-wrapper">
+    		<div class="swiper-slide"></div>
+    		<div class="swiper-slide"></div>
+    		<div class="swiper-slide">
+    			<a href="index.html" class="swiper-slide-btn"></a>
+    		</div>
+ 		</div>
+	</div>
+</body>
+</html>
+<script>
+	var mySwiper = new Swiper ('.swiper-container', {
+   	// autoplay: 500,
+   	 onInit: function(swiper){ <!-- Swiper2.x的初始化是onFirstInit -->
+
+     	swiperAnimateCache(swiper); <!-- 隐藏动画元素 --> 
+     	swiperAnimate(swiper); <!-- 初始化完成开始动画 -->
+    	}, 
+   	 onSlideChangeEnd: function(swiper){ 
+    	 swiperAnimate(swiper); <!-- 每个slide切换结束时也运行当前slide动画 -->
+   	 } 
+ 	}) 
+</script>
+ <!-- 元素加ani swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" -->
