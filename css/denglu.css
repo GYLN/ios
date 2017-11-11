@@ -5,7 +5,7 @@ input{
 	width: 7.5rem;
 	height: 13.34rem;
 	/* background-color: red; */
-	background: url('c:/users/apple/desktop/代码/ios/img/background.png');
+	background: url('../img/background.png');
 	background-size: 100% auto;
 	position: relative;
 	text-align: center;
